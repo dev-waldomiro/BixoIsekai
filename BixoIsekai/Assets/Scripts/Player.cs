@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -13,8 +14,8 @@ public class Player : MonoBehaviour {
     public Sprite poses1;
     public Sprite poses2;
     public Sprite poses3;*/
+    public int hp = 100;
 
-    
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         //r = GetComponent<SpriteRenderer>(); 
@@ -36,7 +37,13 @@ public class Player : MonoBehaviour {
         } else {
              rb.velocity = Vector2.zero;
         }
-        
+
+        //Teste do Personagem recebendo dano
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log("Ai!");
+            this.Dano(50);
+        }
     }
 
     void faceMouse () {
@@ -61,5 +68,15 @@ public class Player : MonoBehaviour {
         }
         return;
     }*/
+
+    public void Dano(int dano)
+    {
+        hp -= dano;
+        if (hp <= 0)
+        {
+            Debug.Log("Bixo morreu. Retornando ao menu inicial.");
+            SceneManager.LoadScene("MenuInicial");
+        }
+    }
 
 }
