@@ -141,8 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1285a2bb2263db94c95b5ddfa7205d21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TexturaFundo: {fileID: 2800000, guid: af22f241f04d59b40b7a57b1c44d0602, type: 3}
-  TexturaCreditos: {fileID: 2800000, guid: 2bd23704369f93d4ca7c333dae71b616, type: 3}
+  TexturaFundo: {fileID: 2800000, guid: 22c924cc3980337429715edab9bfd266, type: 3}
+  TexturaCreditos: {fileID: 2800000, guid: 9345bd91200472d4ab31978e6f959b0f, type: 3}
   EstiloDosBotoesPrincipais:
     m_Name: 
     m_Normal:
