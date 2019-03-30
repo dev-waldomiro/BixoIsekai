@@ -141,12 +141,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1285a2bb2263db94c95b5ddfa7205d21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TexturaFundo: {fileID: 2800000, guid: af22f241f04d59b40b7a57b1c44d0602, type: 3}
-  TexturaCreditos: {fileID: 2800000, guid: 2bd23704369f93d4ca7c333dae71b616, type: 3}
+  TexturaFundo: {fileID: 2800000, guid: 2bd23704369f93d4ca7c333dae71b616, type: 3}
   EstiloDosBotoesPrincipais:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: f475d7f22a736194bba47103762eb1c0, type: 3}
+      m_Background: {fileID: 2800000, guid: a83e12784a15cae489ad5e227e6ca13e, type: 3}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
@@ -197,8 +196,8 @@ MonoBehaviour:
       m_Right: 0
       m_Top: 0
       m_Bottom: 0
-    m_Font: {fileID: 12800000, guid: 7c98fd6067091864bb33f57d3701e776, type: 3}
-    m_FontSize: 10
+    m_Font: {fileID: 0}
+    m_FontSize: 0
     m_FontStyle: 0
     m_Alignment: 4
     m_WordWrap: 0
@@ -210,8 +209,8 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  Fonte: {fileID: 12800000, guid: 5cc92dfc969c81d42a1af14479a6ed2f, type: 3}
-  tamanhodaLetra: 5
+  Fonte: {fileID: 12800000, guid: c838a4493d5e72743ac66b21d4becf21, type: 3}
+  tamanhodaLetra: 4
 --- !u!4 &638629680
 Transform:
   m_ObjectHideFlags: 0
