@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 355395906}
   - component: {fileID: 355395905}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,13 +142,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TexturaFundo: {fileID: 2800000, guid: 22c924cc3980337429715edab9bfd266, type: 3}
-  TexturaCreditos: {fileID: 2800000, guid: 9345bd91200472d4ab31978e6f959b0f, type: 3}
+  TexturaCreditos: {fileID: 2800000, guid: 82e0dd04559ba004c97320592f84bab4, type: 3}
   EstiloDosBotoesPrincipais:
     m_Name: 
     m_Normal:
       m_Background: {fileID: 2800000, guid: f475d7f22a736194bba47103762eb1c0, type: 3}
       m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_TextColor: {r: 0.5471698, g: 0.038714837, b: 0.038714837, a: 1}
     m_Hover:
       m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
@@ -210,8 +210,8 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  Fonte: {fileID: 12800000, guid: 7c98fd6067091864bb33f57d3701e776, type: 3}
-  tamanhodaLetra: 5
+  Fonte: {fileID: 12800000, guid: 9c7c77d13db261742bed4d8d3fa3d77f, type: 3}
+  tamanhodaLetra: 2
 --- !u!4 &355395906
 Transform:
   m_ObjectHideFlags: 0
