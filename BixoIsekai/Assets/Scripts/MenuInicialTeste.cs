@@ -37,7 +37,7 @@ public class MenuInicialTeste : MonoBehaviour {
             GUI.DrawTexture(new Rect(Screen.width/2 - Screen.width/2,Screen.height / 2 - Screen.height/2,Screen.width, Screen.height), TexturaFundo);
             if (GUI.Button(new Rect(Screen.width / 2 - Screen.width / 16, Screen.height / 2 - Screen.height / 16, Screen.width / 8, Screen.height / 14), "Jogar"))
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene("Jogo");
                 EstaNoMenuPrincipal = false;
                 
             }
