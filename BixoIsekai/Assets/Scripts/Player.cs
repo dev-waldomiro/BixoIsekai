@@ -32,7 +32,6 @@ public class Player : MonoBehaviour {
             mousePos();
             direction = (mousePosition - transform.position).normalized;
 ;           rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
-        Debug.Log(rb.velocity);
         } else {
              rb.velocity = Vector2.zero;
         }
