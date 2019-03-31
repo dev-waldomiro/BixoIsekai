@@ -28,6 +28,7 @@ public class Player : MonoBehaviour {
     void Update() {
         faceMouse();
         //spriteChager();
+        
         if(Input.GetMouseButton(0)){
             mousePos();
             direction = (mousePosition - transform.position).normalized;
